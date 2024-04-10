@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    body { 
+        background-color: white;
+    }
+
+    header { 
+        background-color:#666666;
+        color: white;
+        width: 88%;
+        margin: auto;
+        padding: 15px;
+        float: center;
+        height: 130px;
+        padding-top: 5px;    
+        margin-top: 10px;
+    }
+    
+    
+   nav { 
+        background-color: #cccccc;
+        height: 260px;
+        width: 35%;
+       
+   }
+
+    aside {
+        background-color: #f1f1f1;
+        font-size: 30px;
+        margin-top: 0px;
+        padding: 40px;
+        width: 42%;
+        
+        
+    }
+
+    .container {
+        display: flex;
+        width: 97%;
+        box-sizing: border-box;
+       
+     
+       
+    }
+
+    
+}
+
+@media screen and (min-width:992px) {
+    body {
+         background-color: green;
+    }
+}
